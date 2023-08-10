@@ -41,27 +41,36 @@ while (opcion != 5)
             {
                 
                 let operacion = prompt("1. Suma" + "\n" + "2. Resta" + "\n" + "3. Multiplicacion" + "\n" + "4. Division")
-                let n1 = Number(prompt("Ingrese un numero 1: "))
-                let n2 = Number(prompt("Ingrese un numero 2: "))
                 if(operacion == 1)
                 {
+                    let n1 = Number(prompt("Ingrese un numero 1: "))
+                    let n2 = Number(prompt("Ingrese un numero 2: "))
                     let suma = n1 + n2
                     alert("La suma es: " + suma)
                 }
                 else if(operacion == 2)
                 {
+                    let n1 = Number(prompt("Ingrese un numero 1: "))
+                    let n2 = Number(prompt("Ingrese un numero 2: "))
                     let resta = n1 - n2
                     alert("La resta es: " + resta)
                 }
                 else if(operacion == 3)
                 {
+                    let n1 = Number(prompt("Ingrese un numero 1: "))
+                    let n2 = Number(prompt("Ingrese un numero 2: "))
                     let multiplicacion = n1 * n2
                     alert("La multiplicacion es: " + multiplicacion)
                 }
                 else if(operacion == 4)
                 {
+                    let n1 = Number(prompt("Ingrese un numero 1: "))
+                    let n2 = Number(prompt("Ingrese un numero 2: "))
                     let division = n1 / n2
                     alert("La division es: " + division)
+                }
+                else{
+                    alert("Opcion incorrecta")
                 }
                 break;
             }
